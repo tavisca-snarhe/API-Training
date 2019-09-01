@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import Todo from './components/Todo';
+import Todos from './components/Todos';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Todo />
+        <Todos />
       </div>
     );
   }

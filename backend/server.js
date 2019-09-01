@@ -34,7 +34,6 @@ app.get('/todos', (req, res) => {
 });
 
 app.post('/todo', (req, res) => {
-    console.log(req);
     if(!req.body.title) {
         return res.status(400).send({
             message: "Todo must have title"
