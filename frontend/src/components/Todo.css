@@ -1,0 +1,47 @@
+
+body {
+  background: white;
+}
+
+.todo-container {
+  background: rgb(41, 33, 33);
+  width: 40vw;
+  margin: 10em auto;
+  padding: 20px 10px;
+  color: white;
+}
+
+.task {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 12px;
+  margin: 0.5em;
+}
+
+.task button {
+  background: rgb(12, 124, 251);
+  margin: 0px 5px;
+  padding: 5px 15px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  float: right;
+}
+
+.header {
+  margin: 0.5em;
+  font-size: 2em;
+  text-align: center;
+}
+
+.create-task input[type="text"] {
+  width: calc(100% - 49px);
+  margin: 15px;
+  margin-right: 15px;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  padding: 7px;
+  padding-left: 15px;
+  height: 25px;
+}
